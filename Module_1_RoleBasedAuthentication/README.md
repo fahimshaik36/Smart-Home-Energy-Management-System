@@ -44,7 +44,7 @@ recovery, and serves as the security foundation of the entire application.
 - Custom authentication success handler
 
 ### Password Recovery
-- Forgot password workflow
+- Forgot-password workflow
 - Token-based password reset
 - Email service integration
 
@@ -52,6 +52,7 @@ recovery, and serves as the security foundation of the entire application.
 
 ## Project Structure
 
+```
 Module_1_RoleBasedAuthentication/
 ├── src/
 │   ├── main/
@@ -61,30 +62,24 @@ Module_1_RoleBasedAuthentication/
 │   │   │       │   ├── SpringSecurityConfig.java
 │   │   │       │   ├── CustomSuccessHandler.java
 │   │   │       │   └── GlobalModelAttributes.java
-│   │   │       │
 │   │   │       ├── controller/
 │   │   │       │   ├── LoginController.java
 │   │   │       │   ├── RegistrationController.java
 │   │   │       │   ├── ForgotPasswordController.java
 │   │   │       │   └── HomeController.java
-│   │   │       │
 │   │   │       ├── model/
 │   │   │       │   ├── User.java
 │   │   │       │   ├── Role.java
 │   │   │       │   └── PasswordResetToken.java
-│   │   │       │
 │   │   │       ├── repository/
 │   │   │       │   ├── UserRepository.java
 │   │   │       │   ├── RoleRepository.java
 │   │   │       │   └── PasswordResetTokenRepository.java
-│   │   │       │
 │   │   │       ├── service/
 │   │   │       │   ├── DefaultUserService.java
 │   │   │       │   ├── DefaultUserServiceImpl.java
 │   │   │       │   └── MailService.java
-│   │   │       │
 │   │   │       └── RoleBasedAuthenticationApplication.java
-│   │   │
 │   │   └── resources/
 │   │       ├── templates/
 │   │       │   ├── login.html
@@ -93,11 +88,10 @@ Module_1_RoleBasedAuthentication/
 │   │       │   ├── reset-password.html
 │   │       │   ├── access-denied.html
 │   │       │   └── home.html
-│   │       │
 │   │       └── application.properties
-│   │
 ├── pom.xml
 └── README.md
+```
 
 ---
 
