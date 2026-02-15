@@ -12,6 +12,16 @@ automatically enforced across the platform.
 
 ---
 
+## Project Demo
+Voice Explanation Demo (PPT + Live Demo):
+https://drive.google.com/file/d/1NcrOQ2NJSLJAei7Wio2MC46r-o_BtUFb/view
+
+Video Breakdown:
+- 00:00 – 06:47  → PPT Explanation
+- 06:48 – End    → Live Project Demo
+
+---
+
 ## Key Objectives
 - Enable users to control and automate smart devices
 - Track and analyze real-time energy consumption
